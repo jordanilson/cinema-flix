@@ -1,0 +1,45 @@
+main {
+    min-height: 100vh;
+}
+
+.section-erro-404 {
+    flex-grow: 1;
+}
+
+.div-erro-404 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.btn-erro-404 {
+    position: relative;
+    top: 20px;
+    border: 0px;
+}
+
+#link-voltar-para-home {
+    background-color: #548eff;
+    padding: 10px;
+    text-decoration: none;
+    border: 0px;
+    transition: all 0.4s;
+    font-family: Poppins;
+    color: white;
+}
+
+#link-voltar-para-home:hover {
+    background-color: #255BC3;
+}
+
+.footer-Erro-404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 5em;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    font-size: 1.1rem;
+    background-color: #252530;
+}

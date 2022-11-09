@@ -1,0 +1,292 @@
+@media(max-width:1200px) {
+    .grid-favoritos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    /* .h2-favortitados {
+        margin-left: -0px;
+        text-align: center;
+    } */
+}
+
+@media(max-width:800px) {
+    .section-filmes-favoritos {
+        position: relative;
+        left: -20px;
+
+
+    }
+
+    .grid-favoritos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    #id-img-favoritados {
+        width: 150px;
+    }
+
+    #link-saiba-mais-meu-filmes {
+        background-color: #548eff;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        font-family: Poppins;
+        width: 150px;
+    }
+
+    .h3-favortitados {
+        width: 85%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .btn-remove-filmes {
+        position: relative;
+        top: 5%;
+        left: 150px;
+
+        width: 20px;
+        background-color: transparent;
+        border: 0px;
+
+    }
+    /* .h2-favortitados {
+        margin-left: -0px;
+        text-align: center;
+    } */
+}
+
+@media(max-width:700px) {
+    .section-filmes-favoritos {
+        position: relative;
+        left: -20px;
+        top: 25px;
+
+    }
+
+    .grid-favoritos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    #id-img-favoritados {
+        width: 150px;
+    }
+
+    #link-saiba-mais-meu-filmes {
+        background-color: #548eff;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        font-family: Poppins;
+        width: 150px;
+    }
+
+    .h3-favortitados {
+        width: 85%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .btn-remove-filmes {
+        position: relative;
+        top: 5%;
+        left: 150px;
+        ;
+        width: 20px;
+        background-color: transparent;
+        border: 0px;
+
+    }
+    .h2-favortitados {
+        margin-left: -25px;
+        text-align: center;
+    }
+}
+
+@media(max-width:600px) {
+    .section-filmes-favoritos {
+        position: relative;
+        left: -20px;
+    }
+
+    .grid-favoritos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    #id-img-favoritados {
+        width: 150px;
+    }
+
+    #link-saiba-mais-meu-filmes {
+        background-color: #548eff;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        font-family: Poppins;
+        width: 150px;
+    }
+
+    .h3-favortitados {
+        width: 85%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .btn-remove-filmes {
+        position: relative;
+        top: 6%;
+        left: 150px;
+        ;
+        width: 20px;
+        background-color: transparent;
+        border: 0px;
+
+    }
+
+}
+
+@media(max-width:500px) {
+    .section-filmes-favoritos {
+        position: relative;
+        left: -40px;
+    }
+
+    .grid-favoritos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    #id-img-favoritados {
+        width: 120px;
+    }
+
+    #link-saiba-mais-meu-filmes {
+        background-color: #548eff;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        font-family: Poppins;
+        width: 120px;
+    }
+
+    .h2-favortitados {
+        position: relative;
+        left: 30px;
+    }
+
+    .h3-favortitados {
+        width: 85%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    }
+
+    .btn-remove-filmes {
+        position: relative;
+        top: 7%;
+        left: 120px;
+        ;
+        width: 20px;
+        background-color: transparent;
+        border: 0px;
+
+    }
+}
+
+@media(max-width:400px) {
+    .section-filmes-favoritos {
+        position: relative;
+        left: -40px;
+    }
+
+    .grid-favoritos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    #id-img-favoritados {
+        width: 120px;
+    }
+
+    #link-saiba-mais-meu-filmes {
+        background-color: #548eff;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        font-family: Poppins;
+        width: 120px;
+    }
+
+    .h2-favortitados {
+        position: relative;
+        left: 35px;
+    }
+
+    .h3-favortitados {
+        width: 85%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    }
+
+    .btn-remove-filmes {
+        position: relative;
+        top: 7%;
+        left: 120px;
+        ;
+        width: 20px;
+        background-color: transparent;
+        border: 0px;
+
+    }
+}
+
+
+@media(max-width:360px) {
+    .section-filmes-favoritos {
+        position: relative;
+        left: -40px;
+    }
+
+    .grid-favoritos {
+        display: grid;
+        gap: 1px;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    #id-img-favoritados {
+        width: 120px;
+    }
+
+    #link-saiba-mais-meu-filmes {
+        background-color: #548eff;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        font-family: Poppins;
+        width: 120px;
+
+    }
+
+    .h2-favortitados {
+        position: relative;
+        left: 35px;
+    }
+
+    .h3-favortitados {
+        width: 85%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    }
+
+}

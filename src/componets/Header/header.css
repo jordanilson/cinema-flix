@@ -1,0 +1,36 @@
+header {
+    height: 10em;
+    background-color: #1C1C25;
+    max-width: 100%;
+}
+
+.ul-nav {
+    display: flex;
+    position: relative;
+    top: 70px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #252530;
+    height: 5em;
+}
+
+#id-link-nav {
+    text-decoration: none;
+    padding:10px;
+    background-color: #252530;
+    background-color: none;
+    color: white;
+}
+
+#h2-header {
+
+    background-color: transparent;
+}
+
+.menu-hamburger {
+    display: none;
+}
+
+#checkbox-menu {
+    display: none;
+}

@@ -1,0 +1,91 @@
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #1C1C25;
+}
+
+.section-saiba-mais {
+    position: relative;
+    top: 70px;
+    left: 0px;
+    flex-grow: 1;
+
+}
+
+.section-saiba-mais h1,
+h2 {
+    font-family: Poppins;
+}
+
+#id-img-saiba-mais {
+    border-radius: 10px;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+
+}
+
+.p-overview {
+    width: 100%;
+}
+
+.div-vote-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.btn-favoritar {
+    background-color: #548eff;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Poppins;
+    border: 0px;
+    transition: all 0.4s;
+}
+.btn-favoritar:hover{
+    background-color: #255BC3;
+}
+
+footer {
+    width: 100%;
+}
+
+#div-cath {
+    display: none;
+    text-align: center;
+}
+
+.btn-voltar-home {
+    background-color: #548eff;
+    padding: 10px;
+    text-decoration: none;
+    border: 0px;
+    transition: all 0.4s;
+}
+
+.btn-voltar-home:hover {
+    background-color: #255BC3;
+}
+
+#link-voltar-home {
+    text-decoration: none;
+    font-family: Poppins;
+    color: white;
+}
+
+.footer-saiba-mais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 5em;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    font-size: 1.1rem;
+    background-color: #252530;
+
+}

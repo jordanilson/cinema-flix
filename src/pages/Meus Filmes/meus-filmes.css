@@ -1,0 +1,74 @@
+main {
+    background-color: #1C1C25;
+}
+
+.section-filmes-favoritos {
+    flex-grow: 1;
+
+}
+
+.div-filme-favoritados {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+#id-img-favoritados {
+    width: 250px;
+}
+
+#link-saiba-mais-meu-filmes {
+    text-align: center;
+    background-color: #548eff;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Poppins;
+    width: 250px;
+    transition: all 0.4s;
+
+}
+
+#link-saiba-mais-meu-filmes:hover {
+    background-color: #255BC3;
+}
+
+.ul-meus-filmes {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.h2-favortitados {
+    margin-left: -15%;
+    text-align: center;
+}
+
+.grid-favoritos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.btn-remove-filmes {
+    position: relative;
+    top: 5%;
+    left: 250px;;
+    width: 20px;
+    background-color: transparent;
+    border: 0px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 5em;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    font-size: 1.1rem;
+    background-color: #252530;
+
+}

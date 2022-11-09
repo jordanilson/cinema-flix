@@ -1,0 +1,75 @@
+@media(max-width:1200px) and (min-width:450px) {
+    .div-poster-saibamais {
+        position: relative;
+        top: -100px;
+        left: -30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    }
+
+    #link-saiba-mais {
+        font-size: 0.80rem;
+    }
+
+    .title-filme-home {
+        background-color: transparent;
+        width: 150px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    }
+
+}
+
+@media(max-width:450px) and (min-width:200px) {
+    .div-poster-saibamais {
+        position: relative;
+        top: -100px;
+        left: -25px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    
+
+    #link-saiba-mais {
+        font-size: 0.60rem;
+        padding: 5px;
+    }
+
+    .title-filme-home {
+        background-color: transparent;
+        font-size: 0.85rem;
+        width: 120px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    }
+
+    #btn-saiba-mais {
+        position: relative;
+        top: -15px;
+    }
+
+    .div-title-saiba-mais {
+        height: 70px;
+    }
+
+    #img-estrela {
+        position: relative;
+        top: -16px;
+
+        width: 17px;
+    }
+
+    .span-vote-home {
+        position: relative;
+        top: -8px;
+        margin-right: 3px;
+        font-size: 0.60rem;
+    }
+
+}
